@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="description" content="Your premier destination for quality products. Shop the latest trends in fashion, electronics, and more." />
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="EStore - Your Premium Shopping Destination" />
+    <meta property="og:description" content="Discover amazing products at great prices" />
+    <meta property="og:image" content="/og-image.jpg" />
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    
+    <!-- PWA -->
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    
+    <title>EStore - Your Premium Shopping Destination</title>
+    
+    <!-- Preload Critical Assets -->
+    <link rel="preload" href="/src/main.tsx" as="script" type="module" />
+    <link rel="preload" href="/fonts/your-main-font.woff2" as="font" type="font/woff2" crossorigin />
+  </head>
+  <body>
+    <noscript>
+      <div style="padding: 20px; text-align: center;">
+        Please enable JavaScript to experience EStore.
+      </div>
+    </noscript>
+    
+    <div id="root"></div>
+    
+    <!-- Main Script -->
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
