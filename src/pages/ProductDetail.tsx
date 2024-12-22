@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { Button } from '@/components/ui/button'
-import api from '@/services/api'
+
 
 export default function ProductDetail() {
   const { id } = useParams()
